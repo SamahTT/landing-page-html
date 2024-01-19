@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+    background-color: rgb(253, 250, 245);
+}
+
+nav ul {
+    padding: 15px;
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+}
+
+li {
+    padding-right: 10px;
+}
+
+.light-btn {
+    padding: 15px;
+    background-color: rgb(251, 224, 149);
+    border-color: white;
+    width: 100px;
+    border-radius: 15px;
+    border: 2px solid navy;
+    font-family: Helvetica;
+    text-transform: uppercase;
+}
+
+.dark-btn {
+    padding: 15px;
+    background-color: navy;
+    width: 100px;
+    border-radius: 15px;
+    color: rgb(251, 224, 149);
+    font-family: Helvetica;
+    text-transform: uppercase;
+}
+
+.left-div {
+    display: inline;
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    margin-left: 5%;
+    padding: 35px;
+}
+
+.img-div{
+    background-image: url('marketing.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline;
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    margin-left: 50%;
+}
+
+.title {
+    font-size: 3em;
+    color: navy;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title span {
+    color: rgb(251, 224, 149);
+}
+
+.desc {
+    font-size: 20px;
+    text-align: justify;
+    color: navy;
+    margin-bottom: 2em;
+    font-family: arial;
+}
+
+.left-div button {
+    width: 140px;
+}
